@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+html { background: #020617; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .001ms !important; transition-duration: .001ms !important; }
+}
+
